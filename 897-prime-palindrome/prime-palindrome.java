@@ -5,10 +5,12 @@ class Solution {
 
             int temp = n;
             int digits = 0;
+
             while (temp > 0) {
                 digits++;
                 temp = temp / 10;
             }
+
             if (digits % 2 == 0 && n > 11) {
 
                 int jump = 1;
